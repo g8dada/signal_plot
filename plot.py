@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.linspace(0, 2 * np.pi, 100)
-y = np.sin(x)
+y = np.cos(x)
 
 plt.plot(x, y)
-plt.title("Sine Wave")
+plt.title("Cosine Wave")
 plt.xlabel("x")
-plt.ylabel("sin(x)")
+plt.ylabel("cos(x)")
 plt.grid(True)
 plt.show()
